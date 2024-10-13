@@ -1,16 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using UniversityManagerWithDB.Enum;
+using UniversityManagerWithDB.Forms;
 
 namespace UniversityManagerWithDB.Service
 {
     public class AppMenusService
     {
 
-        public void FacultiesList()
-        {
-            Console.WriteLine("Lista Facolta'");
-        }
+        AddStudentForm addStudentForm = new AddStudentForm();
 
         public void StudentsManagment()
         {
@@ -65,6 +63,7 @@ namespace UniversityManagerWithDB.Service
                         break;
                     case (int)StudentsManagmentEnum.AddStudent:
                         Console.WriteLine($"Hai selezionato: {options[selectedIndex]}");
+                        addStudentForm.ShowDialog();
 
                         break;
                     case (int)StudentsManagmentEnum.UpdateStudent:

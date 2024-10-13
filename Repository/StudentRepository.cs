@@ -14,7 +14,7 @@ namespace University.Repository;
 
 public class StudentRepository : StudentCRUD
 {
-   public  DbSet<Students> Students { get; set; } = GetDbHelper.db.Students;
+    public  DbSet<Students> Students { get; set; } = GetDbHelper.db.Students;
 
     public bool Insert(string mat,string name,string surname,int age,string gender,DateTime dataTime,long facultyId)
     {

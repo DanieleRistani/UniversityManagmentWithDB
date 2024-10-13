@@ -1,6 +1,7 @@
 ﻿using System;
 using University.Repository;
 using UniversityManagerWithDB.Enum;
+using UniversityManagerWithDB.Forms;
 using UniversityManagerWithDB.Service;
 
 namespace UniversityManagerWithDB
@@ -14,11 +15,6 @@ namespace UniversityManagerWithDB
 
         static void Main(string[] args) =>AppMenu();
 
-        //static void Main(string[] args)
-        //{
-        //    StudentRepository studentRepository = new StudentRepository();
-        //    Console.WriteLine(studentRepository.UpdateName("ENG002","Giorgia") ? "Studente aggiornato" : "Errore Studente non aggiornato");
-        //}
 
         public static void AppMenu()
         {
@@ -82,7 +78,7 @@ namespace UniversityManagerWithDB
                         break;
                     case (int)AppMenuEnum.Facultieslist:
                         Console.WriteLine($"Hai selezionato: {options[selectedIndex]}");
-                        appMenusService.FacultiesList();
+                        
                         break;
                     case (int)AppMenuEnum.Exit:
                         Console.WriteLine($"Uscita dall' Applicazione");

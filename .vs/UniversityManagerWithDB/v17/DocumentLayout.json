@@ -3,47 +3,51 @@
   "WorkspaceRootPath": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|c:\\users\\desktop\\wa\\c#_corso\\universitymanagerwithdb\\entity\\entitydb.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|solutionrelative:entity\\entitydb.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|c:\\users\\desktop\\wa\\c#_corso\\universitymanagerwithdb\\forms\\addstudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|solutionrelative:forms\\addstudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|c:\\users\\desktop\\wa\\c#_corso\\universitymanagerwithdb\\helper\\getdbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|solutionrelative:helper\\getdbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|c:\\users\\desktop\\wa\\c#_corso\\universitymanagerwithdb\\forms\\addstudentform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|solutionrelative:forms\\addstudentform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|c:\\users\\desktop\\wa\\c#_corso\\universitymanagerwithdb\\forms\\addstudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|solutionrelative:forms\\addstudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|c:\\users\\desktop\\wa\\c#_corso\\universitymanagerwithdb\\entity\\students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|solutionrelative:entity\\students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|c:\\users\\desktop\\wa\\c#_corso\\universitymanagerwithdb\\service\\appmenusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|solutionrelative:service\\appmenusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|c:\\users\\desktop\\wa\\c#_corso\\universitymanagerwithdb\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|c:\\users\\desktop\\wa\\c#_corso\\universitymanagerwithdb\\entity\\entitydb.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|solutionrelative:entity\\entitydb.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|c:\\users\\desktop\\wa\\c#_corso\\universitymanagerwithdb\\entity\\entitydb.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|solutionrelative:entity\\entitydb.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|c:\\users\\desktop\\wa\\c#_corso\\universitymanagerwithdb\\entity\\entitydb.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|solutionrelative:entity\\entitydb.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|c:\\users\\desktop\\wa\\c#_corso\\universitymanagerwithdb\\entity\\entitydb.edmx.diagram||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|solutionrelative:entity\\entitydb.edmx.diagram||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|c:\\users\\desktop\\wa\\c#_corso\\universitymanagerwithdb\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|solutionrelative:packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|c:\\users\\desktop\\wa\\c#_corso\\universitymanagerwithdb\\repository\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\repository\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|solutionrelative:repository\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|c:\\users\\desktop\\wa\\c#_corso\\universitymanagerwithdb\\entity\\teachers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\helper\\getdbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|solutionrelative:helper\\getdbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\entity\\students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|solutionrelative:entity\\students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\entity\\entitydb.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|solutionrelative:entity\\entitydb.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\entity\\entitydb.edmx.diagram||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|solutionrelative:entity\\entitydb.edmx.diagram||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\entity\\teachers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|solutionrelative:entity\\teachers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -59,14 +63,28 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EntityDB.Context.cs",
-              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\Entity\\EntityDB.Context.cs",
-              "RelativeDocumentMoniker": "Entity\\EntityDB.Context.cs",
-              "ToolTip": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\Entity\\EntityDB.Context.cs",
-              "RelativeToolTip": "Entity\\EntityDB.Context.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Title": "AddStudentForm.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\Forms\\AddStudentForm.cs",
+              "RelativeDocumentMoniker": "Forms\\AddStudentForm.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\Forms\\AddStudentForm.cs",
+              "RelativeToolTip": "Forms\\AddStudentForm.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAiwC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T20:55:50.483Z",
+              "WhenOpened": "2024-10-13T21:30:16.177Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddStudentForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\Forms\\AddStudentForm.Designer.cs",
+              "RelativeDocumentMoniker": "Forms\\AddStudentForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\Forms\\AddStudentForm.Designer.cs",
+              "RelativeToolTip": "Forms\\AddStudentForm.Designer.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAiwJ4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T22:17:33.81Z",
               "EditorCaption": ""
             },
             {
@@ -79,20 +97,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GetDbHelper.cs",
-              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\Helper\\GetDbHelper.cs",
-              "RelativeDocumentMoniker": "Helper\\GetDbHelper.cs",
-              "ToolTip": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\Helper\\GetDbHelper.cs",
-              "RelativeToolTip": "Helper\\GetDbHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "AppMenusService.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\Service\\AppMenusService.cs",
+              "RelativeDocumentMoniker": "Service\\AppMenusService.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\Service\\AppMenusService.cs",
+              "RelativeToolTip": "Service\\AppMenusService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T20:53:42.1Z",
+              "WhenOpened": "2024-10-13T22:10:37.419Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "AddStudentForm.cs [Progettazione]",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\Forms\\AddStudentForm.cs",
+              "RelativeDocumentMoniker": "Forms\\AddStudentForm.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\Forms\\AddStudentForm.cs [Progettazione]",
+              "RelativeToolTip": "Forms\\AddStudentForm.cs [Progettazione]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T21:29:01.025Z",
+              "EditorCaption": " [Progettazione]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EntityDB.Context.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\Entity\\EntityDB.Context.cs",
+              "RelativeDocumentMoniker": "Entity\\EntityDB.Context.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\Entity\\EntityDB.Context.cs",
+              "RelativeToolTip": "Entity\\EntityDB.Context.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T20:55:50.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Students.cs",
               "DocumentMoniker": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\Entity\\Students.cs",
               "RelativeDocumentMoniker": "Entity\\Students.cs",
@@ -100,12 +143,11 @@
               "RelativeToolTip": "Entity\\Students.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T20:52:40.446Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T20:52:40.446Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "EntityDB.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\Entity\\EntityDB.Designer.cs",
               "RelativeDocumentMoniker": "Entity\\EntityDB.Designer.cs",
@@ -118,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "EntityDB.edmx.diagram",
               "DocumentMoniker": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\Entity\\EntityDB.edmx.diagram",
               "RelativeDocumentMoniker": "Entity\\EntityDB.edmx.diagram",
@@ -126,51 +168,11 @@
               "RelativeToolTip": "Entity\\EntityDB.edmx.diagram",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-10-13T20:50:58.391Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T20:50:58.391Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "packages.config",
-              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\packages.config",
-              "RelativeDocumentMoniker": "packages.config",
-              "ToolTip": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\packages.config",
-              "RelativeToolTip": "packages.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-10-13T20:50:47.88Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\App.config",
-              "RelativeDocumentMoniker": "App.config",
-              "ToolTip": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\App.config",
-              "RelativeToolTip": "App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-10-13T20:50:45.934Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EntityDB.Context.tt",
-              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\Entity\\EntityDB.Context.tt",
-              "RelativeDocumentMoniker": "Entity\\EntityDB.Context.tt",
-              "ToolTip": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\Entity\\EntityDB.Context.tt",
-              "RelativeToolTip": "Entity\\EntityDB.Context.tt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-10-13T20:49:47.359Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Teachers.cs",
               "DocumentMoniker": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\Entity\\Teachers.cs",
               "RelativeDocumentMoniker": "Entity\\Teachers.cs",
@@ -178,34 +180,45 @@
               "RelativeToolTip": "Entity\\Teachers.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T20:38:57.221Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T20:38:57.221Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "StudentRepository.cs",
               "DocumentMoniker": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\Repository\\StudentRepository.cs",
               "RelativeDocumentMoniker": "Repository\\StudentRepository.cs",
               "ToolTip": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\Repository\\StudentRepository.cs",
               "RelativeToolTip": "Repository\\StudentRepository.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAuwDoAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAADwv68AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-13T15:00:27.618Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-13T14:30:25.909Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetDbHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\Helper\\GetDbHelper.cs",
+              "RelativeDocumentMoniker": "Helper\\GetDbHelper.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\Helper\\GetDbHelper.cs",
+              "RelativeToolTip": "Helper\\GetDbHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T20:53:42.1Z"
             }
           ]
         }

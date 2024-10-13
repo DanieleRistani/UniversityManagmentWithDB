@@ -10,3 +10,5 @@ C:\Users\Desktop\wa\c#_corso\UniversityManagerWithDB\obj\Debug\UniversityManager
 C:\Users\Desktop\wa\c#_corso\UniversityManagerWithDB\obj\Debug\Universi.36EA9CFF.Up2Date
 C:\Users\Desktop\wa\c#_corso\UniversityManagerWithDB\obj\Debug\UniversityManagerWithDB.exe
 C:\Users\Desktop\wa\c#_corso\UniversityManagerWithDB\obj\Debug\UniversityManagerWithDB.pdb
+C:\Users\Desktop\WA\c#_corso\UniversityManagerWithDB\obj\Debug\UniversityManagerWithDB.csproj.GenerateResource.cache
+C:\Users\Desktop\WA\c#_corso\UniversityManagerWithDB\obj\Debug\UniversityManagerWithDB.Forms.AddStudentForm.resources
