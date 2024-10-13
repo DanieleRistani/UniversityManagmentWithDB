@@ -3,7 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|c:\\users\\desktop\\wa\\c#_corso\\universitymanagerwithdb\\repository\\examrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|solutionrelative:repository\\examrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|c:\\users\\desktop\\wa\\c#_corso\\universitymanagerwithdb\\repository\\facultyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|solutionrelative:repository\\facultyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|c:\\users\\desktop\\wa\\c#_corso\\universitymanagerwithdb\\repository\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|solutionrelative:repository\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|c:\\users\\desktop\\wa\\c#_corso\\universitymanagerwithdb\\repository\\teacherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|solutionrelative:repository\\teacherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|c:\\users\\desktop\\wa\\c#_corso\\universitymanagerwithdb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,13 +42,65 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TeacherRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\Repository\\TeacherRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\TeacherRepository.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\Repository\\TeacherRepository.cs",
+              "RelativeToolTip": "Repository\\TeacherRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T15:00:36.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\Repository\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\StudentRepository.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\Repository\\StudentRepository.cs",
+              "RelativeToolTip": "Repository\\StudentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T15:00:27.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FacultyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\Repository\\FacultyRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\FacultyRepository.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\Repository\\FacultyRepository.cs",
+              "RelativeToolTip": "Repository\\FacultyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T15:00:15.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ExamRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\Repository\\ExamRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ExamRepository.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\Repository\\ExamRepository.cs",
+              "RelativeToolTip": "Repository\\ExamRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T14:59:49.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagerWithDB\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwG4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-13T14:30:25.909Z",
               "EditorCaption": ""
