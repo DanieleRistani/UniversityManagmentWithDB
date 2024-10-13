@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="UniversityDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Exames">
+          <Key>
+            <PropertyRef Name="exame_id" />
+          </Key>
+          <Property Name="exame_id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="exame_code" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="exame_teacher_id" Type="bigint" Nullable="false" />
+          <Property Name="exame_student_id" Type="bigint" Nullable="false" />
+          <Property Name="exame_date" Type="date" Nullable="false" />
+          <Property Name="exame_result" Type="int" Nullable="false" />
+          <Property Name="exame_matter_id" Type="bigint" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Faculties">
+          <Key>
+            <PropertyRef Name="faculty_id" />
+          </Key>
+          <Property Name="faculty_id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="faculty_name" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="faculty_location" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Matters">
+          <Key>
+            <PropertyRef Name="matter_id" />
+          </Key>
+          <Property Name="matter_id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="matter_code" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="matter_name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="matter_faculty_id" Type="bigint" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Students">
+          <Key>
+            <PropertyRef Name="student_id" />
+          </Key>
+          <Property Name="student_id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="student_mat" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="student_name" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="student_surname" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="student_age" Type="int" Nullable="false" />
+          <Property Name="student_gender" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="student_date_of_enrollment" Type="date" Nullable="false" />
+          <Property Name="student_faculty_id" Type="bigint" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Teachers">
+          <Key>
+            <PropertyRef Name="teacher_id" />
+          </Key>
+          <Property Name="teacher_id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="teacher_code" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="teacher_faculty_id" Type="bigint" Nullable="false" />
+          <Property Name="teacher_matter_id" Type="bigint" Nullable="false" />
+          <Property Name="teacher_role" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="teacher_name" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="teacher_surname" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="teacher_age" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="teacher_gender" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_Exames_Matters">
+          <End Role="Matters" Type="Self.Matters" Multiplicity="1" />
+          <End Role="Exames" Type="Self.Exames" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Matters">
+              <PropertyRef Name="matter_id" />
+            </Principal>
+            <Dependent Role="Exames">
+              <PropertyRef Name="exame_matter_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Exames_Students">
+          <End Role="Students" Type="Self.Students" Multiplicity="1" />
+          <End Role="Exames" Type="Self.Exames" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Students">
+              <PropertyRef Name="student_id" />
+            </Principal>
+            <Dependent Role="Exames">
+              <PropertyRef Name="exame_student_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Exames_Teachers">
+          <End Role="Teachers" Type="Self.Teachers" Multiplicity="1" />
+          <End Role="Exames" Type="Self.Exames" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Teachers">
+              <PropertyRef Name="teacher_id" />
+            </Principal>
+            <Dependent Role="Exames">
+              <PropertyRef Name="exame_teacher_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Matters_Faculties">
+          <End Role="Faculties" Type="Self.Faculties" Multiplicity="1" />
+          <End Role="Matters" Type="Self.Matters" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Faculties">
+              <PropertyRef Name="faculty_id" />
+            </Principal>
+            <Dependent Role="Matters">
+              <PropertyRef Name="matter_faculty_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Students_Faculties">
+          <End Role="Faculties" Type="Self.Faculties" Multiplicity="1" />
+          <End Role="Students" Type="Self.Students" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Faculties">
+              <PropertyRef Name="faculty_id" />
+            </Principal>
+            <Dependent Role="Students">
+              <PropertyRef Name="student_faculty_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Teachers_Faculties">
+          <End Role="Faculties" Type="Self.Faculties" Multiplicity="1" />
+          <End Role="Teachers" Type="Self.Teachers" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Faculties">
+              <PropertyRef Name="faculty_id" />
+            </Principal>
+            <Dependent Role="Teachers">
+              <PropertyRef Name="teacher_faculty_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Teachers_Matters">
+          <End Role="Matters" Type="Self.Matters" Multiplicity="1" />
+          <End Role="Teachers" Type="Self.Teachers" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Matters">
+              <PropertyRef Name="matter_id" />
+            </Principal>
+            <Dependent Role="Teachers">
+              <PropertyRef Name="teacher_matter_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="UniversityDBModelStoreContainer">
+          <EntitySet Name="Exames" EntityType="Self.Exames" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Faculties" EntityType="Self.Faculties" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Matters" EntityType="Self.Matters" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Students" EntityType="Self.Students" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Teachers" EntityType="Self.Teachers" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_Exames_Matters" Association="Self.FK_Exames_Matters">
+            <End Role="Matters" EntitySet="Matters" />
+            <End Role="Exames" EntitySet="Exames" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Exames_Students" Association="Self.FK_Exames_Students">
+            <End Role="Students" EntitySet="Students" />
+            <End Role="Exames" EntitySet="Exames" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Exames_Teachers" Association="Self.FK_Exames_Teachers">
+            <End Role="Teachers" EntitySet="Teachers" />
+            <End Role="Exames" EntitySet="Exames" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Matters_Faculties" Association="Self.FK_Matters_Faculties">
+            <End Role="Faculties" EntitySet="Faculties" />
+            <End Role="Matters" EntitySet="Matters" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Students_Faculties" Association="Self.FK_Students_Faculties">
+            <End Role="Faculties" EntitySet="Faculties" />
+            <End Role="Students" EntitySet="Students" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Teachers_Faculties" Association="Self.FK_Teachers_Faculties">
+            <End Role="Faculties" EntitySet="Faculties" />
+            <End Role="Teachers" EntitySet="Teachers" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Teachers_Matters" Association="Self.FK_Teachers_Matters">
+            <End Role="Matters" EntitySet="Matters" />
+            <End Role="Teachers" EntitySet="Teachers" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="UniversityDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Exames">
+          <Key>
+            <PropertyRef Name="exame_id" />
+          </Key>
+          <Property Name="exame_id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="exame_code" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="exame_teacher_id" Type="Int64" Nullable="false" />
+          <Property Name="exame_student_id" Type="Int64" Nullable="false" />
+          <Property Name="exame_date" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="exame_result" Type="Int32" Nullable="false" />
+          <Property Name="exame_matter_id" Type="Int64" Nullable="false" />
+          <NavigationProperty Name="Matters" Relationship="Self.FK_Exames_Matters" FromRole="Exames" ToRole="Matters" />
+          <NavigationProperty Name="Students" Relationship="Self.FK_Exames_Students" FromRole="Exames" ToRole="Students" />
+          <NavigationProperty Name="Teachers" Relationship="Self.FK_Exames_Teachers" FromRole="Exames" ToRole="Teachers" />
+        </EntityType>
+        <EntityType Name="Faculties">
+          <Key>
+            <PropertyRef Name="faculty_id" />
+          </Key>
+          <Property Name="faculty_id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="faculty_name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="faculty_location" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Matters" Relationship="Self.FK_Matters_Faculties" FromRole="Faculties" ToRole="Matters" />
+          <NavigationProperty Name="Students" Relationship="Self.FK_Students_Faculties" FromRole="Faculties" ToRole="Students" />
+          <NavigationProperty Name="Teachers" Relationship="Self.FK_Teachers_Faculties" FromRole="Faculties" ToRole="Teachers" />
+        </EntityType>
+        <EntityType Name="Matters">
+          <Key>
+            <PropertyRef Name="matter_id" />
+          </Key>
+          <Property Name="matter_id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="matter_code" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="matter_name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="matter_faculty_id" Type="Int64" Nullable="false" />
+          <NavigationProperty Name="Exames" Relationship="Self.FK_Exames_Matters" FromRole="Matters" ToRole="Exames" />
+          <NavigationProperty Name="Faculties" Relationship="Self.FK_Matters_Faculties" FromRole="Matters" ToRole="Faculties" />
+          <NavigationProperty Name="Teachers" Relationship="Self.FK_Teachers_Matters" FromRole="Matters" ToRole="Teachers" />
+        </EntityType>
+        <EntityType Name="Students">
+          <Key>
+            <PropertyRef Name="student_id" />
+          </Key>
+          <Property Name="student_id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="student_mat" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="student_name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="student_surname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="student_age" Type="Int32" Nullable="false" />
+          <Property Name="student_gender" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="student_date_of_enrollment" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="student_faculty_id" Type="Int64" Nullable="false" />
+          <NavigationProperty Name="Exames" Relationship="Self.FK_Exames_Students" FromRole="Students" ToRole="Exames" />
+          <NavigationProperty Name="Faculties" Relationship="Self.FK_Students_Faculties" FromRole="Students" ToRole="Faculties" />
+        </EntityType>
+        <EntityType Name="Teachers">
+          <Key>
+            <PropertyRef Name="teacher_id" />
+          </Key>
+          <Property Name="teacher_id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="teacher_code" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="teacher_faculty_id" Type="Int64" Nullable="false" />
+          <Property Name="teacher_matter_id" Type="Int64" Nullable="false" />
+          <Property Name="teacher_role" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="teacher_name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="teacher_surname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="teacher_age" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="teacher_gender" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Exames" Relationship="Self.FK_Exames_Teachers" FromRole="Teachers" ToRole="Exames" />
+          <NavigationProperty Name="Faculties" Relationship="Self.FK_Teachers_Faculties" FromRole="Teachers" ToRole="Faculties" />
+          <NavigationProperty Name="Matters" Relationship="Self.FK_Teachers_Matters" FromRole="Teachers" ToRole="Matters" />
+        </EntityType>
+        <Association Name="FK_Exames_Matters">
+          <End Role="Matters" Type="Self.Matters" Multiplicity="1" />
+          <End Role="Exames" Type="Self.Exames" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Matters">
+              <PropertyRef Name="matter_id" />
+            </Principal>
+            <Dependent Role="Exames">
+              <PropertyRef Name="exame_matter_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Exames_Students">
+          <End Role="Students" Type="Self.Students" Multiplicity="1" />
+          <End Role="Exames" Type="Self.Exames" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Students">
+              <PropertyRef Name="student_id" />
+            </Principal>
+            <Dependent Role="Exames">
+              <PropertyRef Name="exame_student_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Exames_Teachers">
+          <End Role="Teachers" Type="Self.Teachers" Multiplicity="1" />
+          <End Role="Exames" Type="Self.Exames" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Teachers">
+              <PropertyRef Name="teacher_id" />
+            </Principal>
+            <Dependent Role="Exames">
+              <PropertyRef Name="exame_teacher_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Matters_Faculties">
+          <End Role="Faculties" Type="Self.Faculties" Multiplicity="1" />
+          <End Role="Matters" Type="Self.Matters" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Faculties">
+              <PropertyRef Name="faculty_id" />
+            </Principal>
+            <Dependent Role="Matters">
+              <PropertyRef Name="matter_faculty_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Students_Faculties">
+          <End Role="Faculties" Type="Self.Faculties" Multiplicity="1" />
+          <End Role="Students" Type="Self.Students" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Faculties">
+              <PropertyRef Name="faculty_id" />
+            </Principal>
+            <Dependent Role="Students">
+              <PropertyRef Name="student_faculty_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Teachers_Faculties">
+          <End Role="Faculties" Type="Self.Faculties" Multiplicity="1" />
+          <End Role="Teachers" Type="Self.Teachers" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Faculties">
+              <PropertyRef Name="faculty_id" />
+            </Principal>
+            <Dependent Role="Teachers">
+              <PropertyRef Name="teacher_faculty_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Teachers_Matters">
+          <End Role="Matters" Type="Self.Matters" Multiplicity="1" />
+          <End Role="Teachers" Type="Self.Teachers" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Matters">
+              <PropertyRef Name="matter_id" />
+            </Principal>
+            <Dependent Role="Teachers">
+              <PropertyRef Name="teacher_matter_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="UniversityDBEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Exames" EntityType="Self.Exames" />
+          <EntitySet Name="Faculties" EntityType="Self.Faculties" />
+          <EntitySet Name="Matters" EntityType="Self.Matters" />
+          <EntitySet Name="Students" EntityType="Self.Students" />
+          <EntitySet Name="Teachers" EntityType="Self.Teachers" />
+          <AssociationSet Name="FK_Exames_Matters" Association="Self.FK_Exames_Matters">
+            <End Role="Matters" EntitySet="Matters" />
+            <End Role="Exames" EntitySet="Exames" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Exames_Students" Association="Self.FK_Exames_Students">
+            <End Role="Students" EntitySet="Students" />
+            <End Role="Exames" EntitySet="Exames" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Exames_Teachers" Association="Self.FK_Exames_Teachers">
+            <End Role="Teachers" EntitySet="Teachers" />
+            <End Role="Exames" EntitySet="Exames" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Matters_Faculties" Association="Self.FK_Matters_Faculties">
+            <End Role="Faculties" EntitySet="Faculties" />
+            <End Role="Matters" EntitySet="Matters" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Students_Faculties" Association="Self.FK_Students_Faculties">
+            <End Role="Faculties" EntitySet="Faculties" />
+            <End Role="Students" EntitySet="Students" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Teachers_Faculties" Association="Self.FK_Teachers_Faculties">
+            <End Role="Faculties" EntitySet="Faculties" />
+            <End Role="Teachers" EntitySet="Teachers" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Teachers_Matters" Association="Self.FK_Teachers_Matters">
+            <End Role="Matters" EntitySet="Matters" />
+            <End Role="Teachers" EntitySet="Teachers" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="UniversityDBModelStoreContainer" CdmEntityContainer="UniversityDBEntities">
+          <EntitySetMapping Name="Exames">
+            <EntityTypeMapping TypeName="UniversityDBModel.Exames">
+              <MappingFragment StoreEntitySet="Exames">
+                <ScalarProperty Name="exame_id" ColumnName="exame_id" />
+                <ScalarProperty Name="exame_code" ColumnName="exame_code" />
+                <ScalarProperty Name="exame_teacher_id" ColumnName="exame_teacher_id" />
+                <ScalarProperty Name="exame_student_id" ColumnName="exame_student_id" />
+                <ScalarProperty Name="exame_date" ColumnName="exame_date" />
+                <ScalarProperty Name="exame_result" ColumnName="exame_result" />
+                <ScalarProperty Name="exame_matter_id" ColumnName="exame_matter_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Faculties">
+            <EntityTypeMapping TypeName="UniversityDBModel.Faculties">
+              <MappingFragment StoreEntitySet="Faculties">
+                <ScalarProperty Name="faculty_id" ColumnName="faculty_id" />
+                <ScalarProperty Name="faculty_name" ColumnName="faculty_name" />
+                <ScalarProperty Name="faculty_location" ColumnName="faculty_location" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Matters">
+            <EntityTypeMapping TypeName="UniversityDBModel.Matters">
+              <MappingFragment StoreEntitySet="Matters">
+                <ScalarProperty Name="matter_id" ColumnName="matter_id" />
+                <ScalarProperty Name="matter_code" ColumnName="matter_code" />
+                <ScalarProperty Name="matter_name" ColumnName="matter_name" />
+                <ScalarProperty Name="matter_faculty_id" ColumnName="matter_faculty_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Students">
+            <EntityTypeMapping TypeName="UniversityDBModel.Students">
+              <MappingFragment StoreEntitySet="Students">
+                <ScalarProperty Name="student_id" ColumnName="student_id" />
+                <ScalarProperty Name="student_mat" ColumnName="student_mat" />
+                <ScalarProperty Name="student_name" ColumnName="student_name" />
+                <ScalarProperty Name="student_surname" ColumnName="student_surname" />
+                <ScalarProperty Name="student_age" ColumnName="student_age" />
+                <ScalarProperty Name="student_gender" ColumnName="student_gender" />
+                <ScalarProperty Name="student_date_of_enrollment" ColumnName="student_date_of_enrollment" />
+                <ScalarProperty Name="student_faculty_id" ColumnName="student_faculty_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Teachers">
+            <EntityTypeMapping TypeName="UniversityDBModel.Teachers">
+              <MappingFragment StoreEntitySet="Teachers">
+                <ScalarProperty Name="teacher_id" ColumnName="teacher_id" />
+                <ScalarProperty Name="teacher_code" ColumnName="teacher_code" />
+                <ScalarProperty Name="teacher_faculty_id" ColumnName="teacher_faculty_id" />
+                <ScalarProperty Name="teacher_matter_id" ColumnName="teacher_matter_id" />
+                <ScalarProperty Name="teacher_role" ColumnName="teacher_role" />
+                <ScalarProperty Name="teacher_name" ColumnName="teacher_name" />
+                <ScalarProperty Name="teacher_surname" ColumnName="teacher_surname" />
+                <ScalarProperty Name="teacher_age" ColumnName="teacher_age" />
+                <ScalarProperty Name="teacher_gender" ColumnName="teacher_gender" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Nessuno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

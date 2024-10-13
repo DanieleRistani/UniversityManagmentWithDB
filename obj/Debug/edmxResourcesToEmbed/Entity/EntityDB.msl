@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="UniversityDBModelStoreContainer" CdmEntityContainer="UniversityDBEntities">
+    <EntitySetMapping Name="Exames">
+      <EntityTypeMapping TypeName="UniversityDBModel.Exames">
+        <MappingFragment StoreEntitySet="Exames">
+          <ScalarProperty Name="exame_id" ColumnName="exame_id" />
+          <ScalarProperty Name="exame_code" ColumnName="exame_code" />
+          <ScalarProperty Name="exame_teacher_id" ColumnName="exame_teacher_id" />
+          <ScalarProperty Name="exame_student_id" ColumnName="exame_student_id" />
+          <ScalarProperty Name="exame_date" ColumnName="exame_date" />
+          <ScalarProperty Name="exame_result" ColumnName="exame_result" />
+          <ScalarProperty Name="exame_matter_id" ColumnName="exame_matter_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Faculties">
+      <EntityTypeMapping TypeName="UniversityDBModel.Faculties">
+        <MappingFragment StoreEntitySet="Faculties">
+          <ScalarProperty Name="faculty_id" ColumnName="faculty_id" />
+          <ScalarProperty Name="faculty_name" ColumnName="faculty_name" />
+          <ScalarProperty Name="faculty_location" ColumnName="faculty_location" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Matters">
+      <EntityTypeMapping TypeName="UniversityDBModel.Matters">
+        <MappingFragment StoreEntitySet="Matters">
+          <ScalarProperty Name="matter_id" ColumnName="matter_id" />
+          <ScalarProperty Name="matter_code" ColumnName="matter_code" />
+          <ScalarProperty Name="matter_name" ColumnName="matter_name" />
+          <ScalarProperty Name="matter_faculty_id" ColumnName="matter_faculty_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Students">
+      <EntityTypeMapping TypeName="UniversityDBModel.Students">
+        <MappingFragment StoreEntitySet="Students">
+          <ScalarProperty Name="student_id" ColumnName="student_id" />
+          <ScalarProperty Name="student_mat" ColumnName="student_mat" />
+          <ScalarProperty Name="student_name" ColumnName="student_name" />
+          <ScalarProperty Name="student_surname" ColumnName="student_surname" />
+          <ScalarProperty Name="student_age" ColumnName="student_age" />
+          <ScalarProperty Name="student_gender" ColumnName="student_gender" />
+          <ScalarProperty Name="student_date_of_enrollment" ColumnName="student_date_of_enrollment" />
+          <ScalarProperty Name="student_faculty_id" ColumnName="student_faculty_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Teachers">
+      <EntityTypeMapping TypeName="UniversityDBModel.Teachers">
+        <MappingFragment StoreEntitySet="Teachers">
+          <ScalarProperty Name="teacher_id" ColumnName="teacher_id" />
+          <ScalarProperty Name="teacher_code" ColumnName="teacher_code" />
+          <ScalarProperty Name="teacher_faculty_id" ColumnName="teacher_faculty_id" />
+          <ScalarProperty Name="teacher_matter_id" ColumnName="teacher_matter_id" />
+          <ScalarProperty Name="teacher_role" ColumnName="teacher_role" />
+          <ScalarProperty Name="teacher_name" ColumnName="teacher_name" />
+          <ScalarProperty Name="teacher_surname" ColumnName="teacher_surname" />
+          <ScalarProperty Name="teacher_age" ColumnName="teacher_age" />
+          <ScalarProperty Name="teacher_gender" ColumnName="teacher_gender" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
