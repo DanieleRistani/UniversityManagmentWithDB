@@ -87,6 +87,7 @@
     <Compile Include="Enum\TeacherRoleEnum.cs" />
     <Compile Include="Enum\TeachersManagmentEnum.cs" />
     <Compile Include="Helper\GetDbHelper.cs" />
+    <Compile Include="Interface\StudentCRUD.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>

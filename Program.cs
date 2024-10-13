@@ -1,4 +1,5 @@
 ﻿using System;
+using University.Repository;
 using UniversityManagerWithDB.Enum;
 using UniversityManagerWithDB.Service;
 
@@ -8,9 +9,16 @@ namespace UniversityManagerWithDB
     internal class Program
     {
 
+
         public static AppMenusService appMenusService { get;set; }=new AppMenusService();
-        
+
         static void Main(string[] args) =>AppMenu();
+
+        //static void Main(string[] args)
+        //{
+        //    StudentRepository studentRepository = new StudentRepository();
+        //    Console.WriteLine(studentRepository.UpdateName("ENG002","Giorgia") ? "Studente aggiornato" : "Errore Studente non aggiornato");
+        //}
 
         public static void AppMenu()
         {
@@ -92,20 +100,6 @@ namespace UniversityManagerWithDB
             exitLoop = true;
         }
 
-        //using (UniversityDBEntities db = new UniversityDBEntities())
-        //{
-
-        //    Faculties faculties = new Faculties();
-
-        //    faculties.faculty_location = "sta ceppa";
-        //    faculties.faculty_name = "Facoltà di sta ceppa";
-
-
-        //    db.Faculties.Add(faculties);
-        //    db.SaveChanges();
-
-
-        //}
 
 
 

@@ -10,5 +10,7 @@ namespace UniversityManagerWithDB.Helper
     public class GetDbHelper
     {
         public static UniversityDBEntities db = new UniversityDBEntities();
+        
+        
     }
 }

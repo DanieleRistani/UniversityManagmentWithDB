@@ -22,9 +22,19 @@ namespace UniversityManagerWithDB.Entity
     
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            throw new UnintentionalCodeFirstException();
+            modelBuilder.Entity<Students>().HasMany(s => s.Exames).WithRequired(e => e.Students).WillCascadeOnDelete();
+            modelBuilder.Entity<Teachers>().HasMany(s => s.Exames).WithRequired(e => e.Teachers).WillCascadeOnDelete();
+
+            modelBuilder.Entity<Faculties>().HasMany(s => s.Students).WithRequired(e => e.Faculties).WillCascadeOnDelete();
+            modelBuilder.Entity<Faculties>().HasMany(s => s.Matters).WithRequired(e => e.Faculties).WillCascadeOnDelete();
+
+            modelBuilder.Entity <Matters>().HasMany(s => s.Teachers).WithRequired(e => e.Matters).WillCascadeOnDelete();
+            modelBuilder.Entity<Matters>().HasMany(s => s.Exames).WithRequired(e => e.Matters).WillCascadeOnDelete();
+
+
+
         }
-    
+
         public virtual DbSet<Exames> Exames { get; set; }
         public virtual DbSet<Faculties> Faculties { get; set; }
         public virtual DbSet<Matters> Matters { get; set; }

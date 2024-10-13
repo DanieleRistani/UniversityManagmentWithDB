@@ -11,7 +11,9 @@ namespace UniversityManagerWithDB.Entity
 {
     using System;
     using System.Collections.Generic;
-    
+    using UniversityManagerWithDB.Enum;
+    using UniversityManagerWithDB.Helper;
+
     public partial class Students
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
@@ -19,7 +21,9 @@ namespace UniversityManagerWithDB.Entity
         {
             this.Exames = new HashSet<Exames>();
         }
-    
+      
+        
+
         public long student_id { get; set; }
         public string student_mat { get; set; }
         public string student_name { get; set; }
@@ -28,7 +32,6 @@ namespace UniversityManagerWithDB.Entity
         public string student_gender { get; set; }
         public System.DateTime student_date_of_enrollment { get; set; }
         public long student_faculty_id { get; set; }
-    
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Exames> Exames { get; set; }
         public virtual Faculties Faculties { get; set; }
