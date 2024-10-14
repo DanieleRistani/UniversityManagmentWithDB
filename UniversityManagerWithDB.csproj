@@ -84,7 +84,6 @@
     </Compile>
     <Compile Include="Enum\AppMenuEnum.cs" />
     <Compile Include="Enum\ExamsManagmentEnum.cs" />
-    <Compile Include="Enum\GenderEnum.cs" />
     <Compile Include="Enum\StudentsManagmentEnum.cs" />
     <Compile Include="Enum\TeacherRoleEnum.cs" />
     <Compile Include="Enum\TeachersManagmentEnum.cs" />
@@ -119,6 +118,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>UniversityDBDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Validation\StudentsValidation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

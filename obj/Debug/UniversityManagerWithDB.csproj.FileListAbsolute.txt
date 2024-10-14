@@ -12,3 +12,17 @@ C:\Users\Desktop\wa\c#_corso\UniversityManagerWithDB\obj\Debug\UniversityManager
 C:\Users\Desktop\wa\c#_corso\UniversityManagerWithDB\obj\Debug\UniversityManagerWithDB.pdb
 C:\Users\Desktop\WA\c#_corso\UniversityManagerWithDB\obj\Debug\UniversityManagerWithDB.csproj.GenerateResource.cache
 C:\Users\Desktop\WA\c#_corso\UniversityManagerWithDB\obj\Debug\UniversityManagerWithDB.Forms.AddStudentForm.resources
+C:\Users\Daniele\wa\UniversityManagmentWithDB\bin\Debug\UniversityManagerWithDB.exe.config
+C:\Users\Daniele\wa\UniversityManagmentWithDB\bin\Debug\UniversityManagerWithDB.exe
+C:\Users\Daniele\wa\UniversityManagmentWithDB\bin\Debug\UniversityManagerWithDB.pdb
+C:\Users\Daniele\wa\UniversityManagmentWithDB\bin\Debug\EntityFramework.dll
+C:\Users\Daniele\wa\UniversityManagmentWithDB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Daniele\wa\UniversityManagmentWithDB\bin\Debug\EntityFramework.xml
+C:\Users\Daniele\wa\UniversityManagmentWithDB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Daniele\wa\UniversityManagmentWithDB\obj\Debug\UniversityManagerWithDB.csproj.AssemblyReference.cache
+C:\Users\Daniele\wa\UniversityManagmentWithDB\obj\Debug\UniversityManagerWithDB.Forms.AddStudentForm.resources
+C:\Users\Daniele\wa\UniversityManagmentWithDB\obj\Debug\UniversityManagerWithDB.csproj.GenerateResource.cache
+C:\Users\Daniele\wa\UniversityManagmentWithDB\obj\Debug\UniversityManagerWithDB.csproj.CoreCompileInputs.cache
+C:\Users\Daniele\wa\UniversityManagmentWithDB\obj\Debug\Universi.36EA9CFF.Up2Date
+C:\Users\Daniele\wa\UniversityManagmentWithDB\obj\Debug\UniversityManagerWithDB.exe
+C:\Users\Daniele\wa\UniversityManagmentWithDB\obj\Debug\UniversityManagerWithDB.pdb

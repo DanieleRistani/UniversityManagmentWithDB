@@ -38,6 +38,9 @@
             this.label7 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.facultiesBindingSource3 = new System.Windows.Forms.BindingSource(this.components);
+            this.universityDBDataSet1BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.universityDBDataSet1 = new UniversityManagerWithDB.UniversityDBDataSet();
             this.facultiesBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.universityDBDataSet = new UniversityManagerWithDB.UniversityDBDataSet();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
@@ -49,8 +52,15 @@
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.facultiesTableAdapter = new UniversityManagerWithDB.UniversityDBDataSetTableAdapters.FacultiesTableAdapter();
+            this.facultiesBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.facultiesBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.facultiesBindingSource3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.universityDBDataSet1BindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.universityDBDataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.facultiesBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.universityDBDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.facultiesBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.facultiesBindingSource2)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -128,7 +138,7 @@
             // 
             // comboBox1
             // 
-            this.comboBox1.DataBindings.Add(new System.Windows.Forms.Binding("SelectedValue", this.facultiesBindingSource, "faculty_id", true));
+            this.comboBox1.DataBindings.Add(new System.Windows.Forms.Binding("SelectedValue", this.facultiesBindingSource, "faculty_name", true));
             this.comboBox1.DataSource = this.facultiesBindingSource;
             this.comboBox1.DisplayMember = "faculty_name";
             this.comboBox1.FormattingEnabled = true;
@@ -137,6 +147,21 @@
             this.comboBox1.Size = new System.Drawing.Size(189, 21);
             this.comboBox1.TabIndex = 9;
             this.comboBox1.ValueMember = "faculty_id";
+            // 
+            // facultiesBindingSource3
+            // 
+            this.facultiesBindingSource3.DataMember = "Faculties";
+            this.facultiesBindingSource3.DataSource = this.universityDBDataSet1BindingSource;
+            // 
+            // universityDBDataSet1BindingSource
+            // 
+            this.universityDBDataSet1BindingSource.DataSource = this.universityDBDataSet1;
+            this.universityDBDataSet1BindingSource.Position = 0;
+            // 
+            // universityDBDataSet1
+            // 
+            this.universityDBDataSet1.DataSetName = "UniversityDBDataSet";
+            this.universityDBDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // facultiesBindingSource
             // 
@@ -218,6 +243,16 @@
             // 
             this.facultiesTableAdapter.ClearBeforeFill = true;
             // 
+            // facultiesBindingSource1
+            // 
+            this.facultiesBindingSource1.DataMember = "Faculties";
+            this.facultiesBindingSource1.DataSource = this.universityDBDataSet1;
+            // 
+            // facultiesBindingSource2
+            // 
+            this.facultiesBindingSource2.DataMember = "Faculties";
+            this.facultiesBindingSource2.DataSource = this.universityDBDataSet1BindingSource;
+            // 
             // AddStudentForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -243,8 +278,13 @@
             this.Name = "AddStudentForm";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.facultiesBindingSource3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.universityDBDataSet1BindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.universityDBDataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.facultiesBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.universityDBDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.facultiesBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.facultiesBindingSource2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -272,5 +312,10 @@
         private UniversityDBDataSet universityDBDataSet;
         private System.Windows.Forms.BindingSource facultiesBindingSource;
         private UniversityDBDataSetTableAdapters.FacultiesTableAdapter facultiesTableAdapter;
+        private System.Windows.Forms.BindingSource universityDBDataSet1BindingSource;
+        private UniversityDBDataSet universityDBDataSet1;
+        private System.Windows.Forms.BindingSource facultiesBindingSource1;
+        private System.Windows.Forms.BindingSource facultiesBindingSource2;
+        private System.Windows.Forms.BindingSource facultiesBindingSource3;
     }
 }

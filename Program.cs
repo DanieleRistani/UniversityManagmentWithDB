@@ -2,6 +2,7 @@
 using University.Repository;
 using UniversityManagerWithDB.Enum;
 using UniversityManagerWithDB.Forms;
+using UniversityManagerWithDB.Helper;
 using UniversityManagerWithDB.Service;
 
 namespace UniversityManagerWithDB
@@ -14,7 +15,6 @@ namespace UniversityManagerWithDB
         public static AppMenusService appMenusService { get;set; }=new AppMenusService();
 
         static void Main(string[] args) =>AppMenu();
-
 
         public static void AppMenu()
         {
