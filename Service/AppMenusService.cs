@@ -8,10 +8,11 @@ namespace UniversityManagerWithDB.Service
     public class AppMenusService
     {
 
-        AddStudentForm addStudentForm = new AddStudentForm();
 
         public void StudentsManagment()
         {
+            AddStudentForm addStudentForm = new AddStudentForm();
+            DeleteStudentForm deleteStudentForm = new DeleteStudentForm();  
             bool exitLoop = false;
             while (!exitLoop)
             {
@@ -72,7 +73,7 @@ namespace UniversityManagerWithDB.Service
                         break;
                     case (int)StudentsManagmentEnum.DeleteStudent:
                         Console.WriteLine($"Hai selezionato: {options[selectedIndex]}");
-
+                        deleteStudentForm.ShowDialog();
                         break;
                     case (int)StudentsManagmentEnum.Exit:
 

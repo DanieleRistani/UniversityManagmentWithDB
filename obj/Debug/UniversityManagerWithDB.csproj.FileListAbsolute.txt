@@ -26,3 +26,4 @@ C:\Users\Daniele\wa\UniversityManagmentWithDB\obj\Debug\UniversityManagerWithDB.
 C:\Users\Daniele\wa\UniversityManagmentWithDB\obj\Debug\Universi.36EA9CFF.Up2Date
 C:\Users\Daniele\wa\UniversityManagmentWithDB\obj\Debug\UniversityManagerWithDB.exe
 C:\Users\Daniele\wa\UniversityManagmentWithDB\obj\Debug\UniversityManagerWithDB.pdb
+C:\Users\Daniele\wa\UniversityManagmentWithDB\obj\Debug\UniversityManagerWithDB.Forms.DeleteStudentForm.resources

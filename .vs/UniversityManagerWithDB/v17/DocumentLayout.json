@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|c:\\users\\daniele\\wa\\universitymanagmentwithdb\\validation\\studentsvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|solutionrelative:validation\\studentsvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|c:\\users\\daniele\\wa\\universitymanagmentwithdb\\forms\\deletestudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|solutionrelative:forms\\deletestudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\forms\\addstudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|solutionrelative:forms\\addstudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|c:\\users\\daniele\\wa\\universitymanagmentwithdb\\forms\\deletestudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|solutionrelative:forms\\deletestudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|c:\\users\\daniele\\wa\\universitymanagmentwithdb\\service\\appmenusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|solutionrelative:service\\appmenusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|c:\\users\\daniele\\wa\\universitymanagmentwithdb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|c:\\users\\daniele\\wa\\universitymanagmentwithdb\\repository\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|solutionrelative:repository\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|c:\\users\\daniele\\wa\\universitymanagmentwithdb\\forms\\addstudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|solutionrelative:forms\\addstudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\entity\\teachers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|solutionrelative:entity\\teachers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|c:\\users\\daniele\\wa\\universitymanagmentwithdb\\validation\\studentsvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|solutionrelative:validation\\studentsvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,6 +37,31 @@
           "SelectedChildIndex": 5,
           "Children": [
             {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DeleteStudentForm.cs [Progettazione]",
+              "DocumentMoniker": "C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\Forms\\DeleteStudentForm.cs",
+              "RelativeDocumentMoniker": "Forms\\DeleteStudentForm.cs",
+              "ToolTip": "C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\Forms\\DeleteStudentForm.cs [Progettazione]",
+              "RelativeToolTip": "Forms\\DeleteStudentForm.cs [Progettazione]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T14:10:20.52Z",
+              "EditorCaption": " [Progettazione]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppMenusService.cs",
+              "DocumentMoniker": "C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\Service\\AppMenusService.cs",
+              "RelativeDocumentMoniker": "Service\\AppMenusService.cs",
+              "ToolTip": "C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\Service\\AppMenusService.cs",
+              "RelativeToolTip": "Service\\AppMenusService.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAgwEsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T14:06:28.126Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
@@ -46,80 +71,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StudentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\Repository\\StudentRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\StudentRepository.cs",
-              "ToolTip": "C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\Repository\\StudentRepository.cs",
-              "RelativeToolTip": "Repository\\StudentRepository.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T12:35:47.627Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AddStudentForm.cs",
-              "DocumentMoniker": "C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\Forms\\AddStudentForm.cs",
-              "RelativeDocumentMoniker": "Forms\\AddStudentForm.cs",
-              "ToolTip": "C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\Forms\\AddStudentForm.cs",
-              "RelativeToolTip": "Forms\\AddStudentForm.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAApwBgAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T21:30:16.177Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "StudentsValidation.cs",
               "DocumentMoniker": "C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\Validation\\StudentsValidation.cs",
               "RelativeDocumentMoniker": "Validation\\StudentsValidation.cs",
               "ToolTip": "C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\Validation\\StudentsValidation.cs",
               "RelativeToolTip": "Validation\\StudentsValidation.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAzwCMAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwBQAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T08:37:21.799Z",
+              "WhenOpened": "2024-10-14T14:03:22.194Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "DeleteStudentForm.cs",
+              "DocumentMoniker": "C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\Forms\\DeleteStudentForm.cs",
+              "RelativeDocumentMoniker": "Forms\\DeleteStudentForm.cs",
+              "ToolTip": "C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\Forms\\DeleteStudentForm.cs",
+              "RelativeToolTip": "Forms\\DeleteStudentForm.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAYwCcAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T14:30:25.909Z",
+              "WhenOpened": "2024-10-14T13:55:13.593Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\App.config",
-              "RelativeDocumentMoniker": "App.config",
-              "ToolTip": "C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\App.config",
-              "RelativeToolTip": "App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-10-14T09:13:33.93Z",
+              "Title": "AddStudentForm.cs",
+              "DocumentMoniker": "C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\Forms\\AddStudentForm.cs",
+              "RelativeDocumentMoniker": "Forms\\AddStudentForm.cs",
+              "ToolTip": "C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\Forms\\AddStudentForm.cs",
+              "RelativeToolTip": "Forms\\AddStudentForm.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T13:43:26.652Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Teachers.cs",
-              "DocumentMoniker": "C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\Entity\\Teachers.cs",
-              "RelativeDocumentMoniker": "Entity\\Teachers.cs",
-              "ToolTip": "C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\Entity\\Teachers.cs",
-              "RelativeToolTip": "Entity\\Teachers.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAASAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T20:38:57.221Z"
+              "WhenOpened": "2024-10-13T14:30:25.909Z",
+              "EditorCaption": ""
             }
           ]
         }

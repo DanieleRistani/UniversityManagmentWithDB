@@ -38,11 +38,11 @@
             this.label7 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.facultiesBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.universityDBDataSet = new UniversityManagerWithDB.UniversityDBDataSet();
             this.facultiesBindingSource3 = new System.Windows.Forms.BindingSource(this.components);
             this.universityDBDataSet1BindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.universityDBDataSet1 = new UniversityManagerWithDB.UniversityDBDataSet();
-            this.facultiesBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.universityDBDataSet = new UniversityManagerWithDB.UniversityDBDataSet();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -54,11 +54,11 @@
             this.facultiesTableAdapter = new UniversityManagerWithDB.UniversityDBDataSetTableAdapters.FacultiesTableAdapter();
             this.facultiesBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.facultiesBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.facultiesBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.universityDBDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.facultiesBindingSource3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.universityDBDataSet1BindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.universityDBDataSet1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.facultiesBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.universityDBDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.facultiesBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.facultiesBindingSource2)).BeginInit();
             this.SuspendLayout();
@@ -71,6 +71,7 @@
             this.label1.Size = new System.Drawing.Size(50, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Matricola";
+           
             // 
             // label2
             // 
@@ -148,6 +149,16 @@
             this.comboBox1.TabIndex = 9;
             this.comboBox1.ValueMember = "faculty_id";
             // 
+            // facultiesBindingSource
+            // 
+            this.facultiesBindingSource.DataMember = "Faculties";
+            this.facultiesBindingSource.DataSource = this.universityDBDataSet;
+            // 
+            // universityDBDataSet
+            // 
+            this.universityDBDataSet.DataSetName = "UniversityDBDataSet";
+            this.universityDBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // facultiesBindingSource3
             // 
             this.facultiesBindingSource3.DataMember = "Faculties";
@@ -162,16 +173,6 @@
             // 
             this.universityDBDataSet1.DataSetName = "UniversityDBDataSet";
             this.universityDBDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // facultiesBindingSource
-            // 
-            this.facultiesBindingSource.DataMember = "Faculties";
-            this.facultiesBindingSource.DataSource = this.universityDBDataSet;
-            // 
-            // universityDBDataSet
-            // 
-            this.universityDBDataSet.DataSetName = "UniversityDBDataSet";
-            this.universityDBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // radioButton1
             // 
@@ -278,11 +279,11 @@
             this.Name = "AddStudentForm";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.facultiesBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.universityDBDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.facultiesBindingSource3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.universityDBDataSet1BindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.universityDBDataSet1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.facultiesBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.universityDBDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.facultiesBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.facultiesBindingSource2)).EndInit();
             this.ResumeLayout(false);
