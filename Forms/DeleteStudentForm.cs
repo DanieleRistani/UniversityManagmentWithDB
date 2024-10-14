@@ -9,7 +9,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using University.Repository;
+using UniversityManagerWithDB.Entity;
 using UniversityManagerWithDB.Helper;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ProgressBar;
 
 namespace UniversityManagerWithDB.Forms
 {
@@ -35,12 +37,11 @@ namespace UniversityManagerWithDB.Forms
             StudentRepository studentRepository = new StudentRepository();
 
             string matForm = textBox1.Text.ToUpper();
-            int rowsAffected = GetDbHelper.db.Database.ExecuteSqlCommand(
-                 "SELECT * FROM Students WHERE Students.student_mat = @mat",
-                 new SqlParameter("@mat", matForm)
-            );
+            int rowsAffected = GetDbHelper.db.Students.SqlQuery("SELECT * FROM Students WHERE student_mat = @mat",
+            new SqlParameter("@mat", matForm)).Count();
+    
             Console.WriteLine(rowsAffected);
-            if (rowsAffected == -1) { studentRepository.Delete(matForm); MessageBox.Show("Studento cancellato"); } else { MessageBox.Show("Studente non presente"); }
+            if (rowsAffected >0 ) { studentRepository.Delete(matForm); MessageBox.Show("Studento cancellato"); } else { MessageBox.Show("Studente non presente"); }
 
         }
 

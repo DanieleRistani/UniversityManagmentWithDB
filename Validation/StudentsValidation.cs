@@ -18,12 +18,10 @@ namespace UniversityManagerWithDB.Validation
         {
             if (mat.Length == 4 && char.IsLetter(mat.ToCharArray()[0]))
             {
-                int rowsAffected = GetDbHelper.db.Database.ExecuteSqlCommand(
-                 "SELECT * FROM Students WHERE Students.student_mat = @mat",
-                 new SqlParameter("@mat", mat.ToUpper())
-                );
-               
-                if (rowsAffected ==-1) { return "Matricola già esistente"; } else { return mat; }
+                int rowsAffected = GetDbHelper.db.Students.SqlQuery("SELECT * FROM Students WHERE student_mat = @mat",
+                new SqlParameter("@mat", mat.ToUpper())).Count();
+
+                if (rowsAffected > 0 ) { return "Matricola già esistente"; } else { return mat; }
 
 
             }
