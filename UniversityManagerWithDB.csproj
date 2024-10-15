@@ -99,6 +99,12 @@
     <Compile Include="Forms\DeleteStudentForm.Designer.cs">
       <DependentUpon>DeleteStudentForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\StudentsList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StudentsList.Designer.cs">
+      <DependentUpon>StudentsList.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\UpdateStudentForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,6 +113,11 @@
     </Compile>
     <Compile Include="Helper\GetDbHelper.cs" />
     <Compile Include="Interface\StudentCRUD.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
@@ -181,8 +192,15 @@
     <EmbeddedResource Include="Forms\DeleteStudentForm.resx">
       <DependentUpon>DeleteStudentForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\StudentsList.resx">
+      <DependentUpon>StudentsList.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\UpdateStudentForm.resx">
       <DependentUpon>UpdateStudentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

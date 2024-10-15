@@ -76,7 +76,7 @@ namespace UniversityManagerWithDB.Forms
         {
             try
             {
-                this.facultiesTableAdapter.FillBy(this.universityDBDataSet.Faculties);
+                this.facultiesTableAdapter.Fill(this.universityDBDataSet.Faculties);
             }
             catch (System.Exception ex)
             {
@@ -85,6 +85,6 @@ namespace UniversityManagerWithDB.Forms
 
         }
 
-       
+
     }
 }

@@ -11,7 +11,7 @@ namespace UniversityManagerWithDB.Service
     {
         public AddStudentForm addStudentForm { get; set; } =new AddStudentForm();
         public DeleteStudentForm deleteStudentForm { get; set; } = new DeleteStudentForm();
-
+        public StudentsList studentsList { get; set; }=new StudentsList();
         public UpdateStudentForm updateStudentForm { get; set; }=new UpdateStudentForm();
     }
 }

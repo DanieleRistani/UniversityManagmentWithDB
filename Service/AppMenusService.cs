@@ -16,7 +16,7 @@ namespace UniversityManagerWithDB.Service
             bool exitLoop = false;
             while (!exitLoop)
             {
-                List<String> options = ["Lista studenti", "Cerca Studente", "Aggiungi studente", "Modifica studente", "Cancella studente", "Esci"];
+                List<String> options = ["Lista studenti", "Aggiungi studente", "Modifica studente", "Cancella studente", "Esci"];
 
                 int selectedIndex = 0;
                 ConsoleKeyInfo key;
@@ -56,12 +56,9 @@ namespace UniversityManagerWithDB.Service
                 {
                     case (int)StudentsManagmentEnum.GetAllStudents:
                         Console.WriteLine($"Hai selezionato: {options[selectedIndex]}");
-
+                        studentsService.studentsList.ShowDialog();
                         break;
-                    case (int)StudentsManagmentEnum.SearchStudent:
-                        Console.WriteLine($"Hai selezionato: {options[selectedIndex]}");
-
-                        break;
+                    
                     case (int)StudentsManagmentEnum.AddStudent:
                         Console.WriteLine($"Hai selezionato: {options[selectedIndex]}");
                         studentsService.addStudentForm.ShowDialog();
