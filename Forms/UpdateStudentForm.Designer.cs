@@ -43,8 +43,18 @@
             this.label1 = new System.Windows.Forms.Label();
             this.universityDBDataSet = new UniversityManagerWithDB.UniversityDBDataSet();
             this.universityDBDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.universityDBDataSetBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.facultiesBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.facultiesTableAdapter = new UniversityManagerWithDB.UniversityDBDataSetTableAdapters.FacultiesTableAdapter();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.Maschio = new System.Windows.Forms.RadioButton();
+            this.Femmina = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.universityDBDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.universityDBDataSetBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.universityDBDataSetBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.facultiesBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // comboBox1
@@ -73,12 +83,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(62, 110);
+            this.label2.Location = new System.Drawing.Point(67, 110);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(40, 13);
             this.label2.TabIndex = 4;
             this.label2.Text = "Campo";
-            
             // 
             // label3
             // 
@@ -92,7 +101,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(238, 110);
+            this.label4.Location = new System.Drawing.Point(246, 110);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(71, 13);
             this.label4.TabIndex = 6;
@@ -116,7 +125,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(254, 189);
+            this.button1.Location = new System.Drawing.Point(254, 264);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(97, 58);
             this.button1.TabIndex = 9;
@@ -126,7 +135,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(12, 189);
+            this.button2.Location = new System.Drawing.Point(12, 264);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(97, 58);
             this.button2.TabIndex = 10;
@@ -136,7 +145,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(133, 189);
+            this.button3.Location = new System.Drawing.Point(133, 264);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(97, 58);
             this.button3.TabIndex = 11;
@@ -144,7 +153,6 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             this.button3.Click += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
-
             // 
             // label1
             // 
@@ -165,11 +173,82 @@
             this.universityDBDataSetBindingSource.DataSource = this.universityDBDataSet;
             this.universityDBDataSetBindingSource.Position = 0;
             // 
+            // comboBox2
+            // 
+            this.comboBox2.DataBindings.Add(new System.Windows.Forms.Binding("SelectedValue", this.facultiesBindingSource, "faculty_id", true));
+            this.comboBox2.DataSource = this.facultiesBindingSource;
+            this.comboBox2.DisplayMember = "faculty_name";
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(12, 190);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(150, 21);
+            this.comboBox2.TabIndex = 13;
+            this.comboBox2.ValueMember = "faculty_id";
+            // 
+            // universityDBDataSetBindingSource1
+            // 
+            this.universityDBDataSetBindingSource1.DataSource = this.universityDBDataSet;
+            this.universityDBDataSetBindingSource1.Position = 0;
+            // 
+            // facultiesBindingSource
+            // 
+            this.facultiesBindingSource.DataMember = "Faculties";
+            this.facultiesBindingSource.DataSource = this.universityDBDataSetBindingSource;
+            // 
+            // facultiesTableAdapter
+            // 
+            this.facultiesTableAdapter.ClearBeforeFill = true;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(67, 174);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(42, 13);
+            this.label6.TabIndex = 14;
+            this.label6.Text = "Facoltà";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(260, 174);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(36, 13);
+            this.label7.TabIndex = 16;
+            this.label7.Text = "Sesso";
+            // 
+            // Maschio
+            // 
+            this.Maschio.AutoSize = true;
+            this.Maschio.Location = new System.Drawing.Point(241, 190);
+            this.Maschio.Name = "Maschio";
+            this.Maschio.Size = new System.Drawing.Size(65, 17);
+            this.Maschio.TabIndex = 17;
+            this.Maschio.TabStop = true;
+            this.Maschio.Text = "Maschio";
+            this.Maschio.UseVisualStyleBackColor = true;
+            // 
+            // Femmina
+            // 
+            this.Femmina.AutoSize = true;
+            this.Femmina.Location = new System.Drawing.Point(241, 214);
+            this.Femmina.Name = "Femmina";
+            this.Femmina.Size = new System.Drawing.Size(67, 17);
+            this.Femmina.TabIndex = 18;
+            this.Femmina.TabStop = true;
+            this.Femmina.Text = "Femmina";
+            this.Femmina.UseVisualStyleBackColor = true;
+            // 
             // UpdateStudentForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(372, 271);
+            this.ClientSize = new System.Drawing.Size(372, 334);
+            this.Controls.Add(this.Femmina);
+            this.Controls.Add(this.Maschio);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -184,8 +263,11 @@
             this.Controls.Add(this.comboBox1);
             this.Name = "UpdateStudentForm";
             this.Text = "UpdateStudentForm";
+            this.Load += new System.EventHandler(this.UpdateStudentForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.universityDBDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.universityDBDataSetBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.universityDBDataSetBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.facultiesBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -207,5 +289,13 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.BindingSource universityDBDataSetBindingSource;
         private UniversityDBDataSet universityDBDataSet;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.BindingSource universityDBDataSetBindingSource1;
+        private System.Windows.Forms.BindingSource facultiesBindingSource;
+        private UniversityDBDataSetTableAdapters.FacultiesTableAdapter facultiesTableAdapter;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.RadioButton Maschio;
+        private System.Windows.Forms.RadioButton Femmina;
     }
 }

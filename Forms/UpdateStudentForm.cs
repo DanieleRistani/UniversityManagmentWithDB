@@ -22,7 +22,7 @@ namespace UniversityManagerWithDB.Forms
         public UpdateStudentForm()
         {
             InitializeComponent();
-            List<string> options = ["Nome", "Cognome", "Età", "Genere", "Data iscrizione", "Facoltà"];
+            List<string> options = ["Nome", "Cognome", "Età", "Genere", "Data iscrizione"];
             options.ForEach(o => this.comboBox1.Items.Add(o));
             this.comboBox1.SelectedItem = "Nome";
 
@@ -50,6 +50,18 @@ namespace UniversityManagerWithDB.Forms
             {
                 long StudentId=GetDbHelper.db.Students.SqlQuery("SELECT * FROM Students WHERE student_mat = @mat", new SqlParameter("@mat", matForm)).Select(s=>s.student_id).FirstOrDefault();
                 student=GetDbHelper.db.Students.Find(StudentId);
+                this.comboBox2.SelectedIndex =(int)student.student_faculty_id;
+                if (student.student_gender.StartsWith("M"))
+                {
+                    this.Maschio.Checked= true;
+                    this.Femmina.Checked = false;
+                }
+                else
+                {
+                    this.Maschio.Checked = false;
+                    this.Femmina.Checked= true;
+                }
+                
                 
             }
             else
@@ -64,6 +76,10 @@ namespace UniversityManagerWithDB.Forms
             this.textBox1.ResetText();
             this.textBox2.ResetText();
             this.textBox3.ResetText();
+            this.comboBox2.SelectedIndex = 0;
+            this.comboBox1.SelectedIndex = 0;
+            this.Femmina.Checked = false;
+            this.Maschio.Checked = false;
 
 
         }
@@ -99,14 +115,16 @@ namespace UniversityManagerWithDB.Forms
                 {
                     textBox1.Text = student.student_date_of_enrollment.ToString();
                 }
-                else if (attribute == "Facoltà")
-                {
-                    textBox1.Text = student.Faculties.faculty_name;
-                }
+                
             }
         }
 
- 
+        private void UpdateStudentForm_Load(object sender, EventArgs e)
+        {
+            // TODO: questa riga di codice carica i dati nella tabella 'universityDBDataSet.Faculties'. È possibile spostarla o rimuoverla se necessario.
+            this.facultiesTableAdapter.Fill(this.universityDBDataSet.Faculties);
+
+        }
     }
 
 }
