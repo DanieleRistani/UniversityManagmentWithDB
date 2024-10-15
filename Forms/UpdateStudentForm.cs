@@ -22,7 +22,7 @@ namespace UniversityManagerWithDB.Forms
         public UpdateStudentForm()
         {
             InitializeComponent();
-            List<string> options = ["Nome", "Cognome", "Età", "Genere", "Data iscrizione"];
+            List<string> options = ["Nome", "Cognome", "Età", "Data iscrizione"];
             options.ForEach(o => this.comboBox1.Items.Add(o));
             this.comboBox1.SelectedItem = "Nome";
 
@@ -30,6 +30,73 @@ namespace UniversityManagerWithDB.Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
+          
+            string newValue=textBox2.Text;
+            StudentsValidation studentsValidation = new();  
+            string attribute = comboBox1.Text;
+
+
+
+            if (student != null)
+            {
+                if(GetDbHelper.db.Students.Find(student.student_id).student_faculty_id==comboBox2.SelectedIndex){}else{GetDbHelper.db.Students.Find(student.student_id).student_faculty_id = comboBox2.SelectedIndex;MessageBox.Show("Facoltà modificata"); }
+            
+                if (Maschio.Checked){GetDbHelper.db.Students.Find(student.student_id).student_gender = Maschio.Text;}
+                else if(Femmina.Checked){GetDbHelper.db.Students.Find(student.student_id).student_gender = Femmina.Text;}
+
+
+                if (attribute == "Nome" && studentsValidation.ValidationName(newValue)==newValue)
+                {
+                       GetDbHelper.db.Students.Find(student.student_id).student_name=newValue;
+                       GetDbHelper.db.SaveChanges();
+                       MessageBox.Show("Nome modificato");
+                    
+                }else if(attribute == "Nome" && studentsValidation.ValidationName(newValue) != newValue){ MessageBox.Show(studentsValidation.ValidationName(newValue));}
+
+
+                if (attribute == "Cognome" && studentsValidation.ValidationSurname(newValue) == newValue)
+                {
+                       GetDbHelper.db.Students.Find(student.student_id).student_surname = newValue;
+                       GetDbHelper.db.SaveChanges();
+                       MessageBox.Show("Cognome modificato");
+
+
+                }
+                else if (attribute == "Cognome" && studentsValidation.ValidationSurname(newValue) != newValue) { MessageBox.Show(studentsValidation.ValidationSurname(newValue)); }
+
+                if (attribute == "Età" && studentsValidation.ValidationAge(newValue) == newValue)
+                {
+                    GetDbHelper.db.Students.Find(student.student_id).student_age = int.Parse(newValue);
+                    GetDbHelper.db.SaveChanges();
+                    MessageBox.Show("Età modificata");
+
+
+                }
+                else if (attribute == "Età" && studentsValidation.ValidationAge(newValue) != newValue) { MessageBox.Show(studentsValidation.ValidationAge(newValue)); }
+
+                if (attribute == "Data iscrizione" && studentsValidation.ValidationDate(newValue) == newValue)
+                {
+                    GetDbHelper.db.Students.Find(student.student_id).student_date_of_enrollment = DateTime.Parse(newValue);
+                    GetDbHelper.db.SaveChanges();
+                    MessageBox.Show("Data iscrizione modificata");
+
+
+                }
+                else if (attribute == "Data iscrizione" && studentsValidation.ValidationDate(newValue) != newValue) { MessageBox.Show(studentsValidation.ValidationDate(newValue)); }
+
+            }
+            else
+            {
+                MessageBox.Show("Nessun Studente selezionato");
+            }
+                
+
+
+
+                    
+                
+            
+            
 
         }
 
