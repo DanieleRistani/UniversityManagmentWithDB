@@ -45,3 +45,6 @@ C:\Users\Desktop\WA\c#_corso\UniversityManagmentWithDB\obj\Debug\UniversityManag
 C:\Users\Daniele\wa\UniversityManagmentWithDB\obj\Debug\UniversityManagerWithDB.Forms.UpdateStudentForm.resources
 C:\Users\Daniele\wa\UniversityManagmentWithDB\obj\Debug\UniversityManagerWithDB.Forms.StudentsList.resources
 C:\Users\Daniele\wa\UniversityManagmentWithDB\obj\Debug\UniversityManagerWithDB.Properties.Resources.resources
+C:\Users\Desktop\WA\c#_corso\UniversityManagmentWithDB\obj\Debug\UniversityManagerWithDB.Forms.StudentsList.resources
+C:\Users\Desktop\WA\c#_corso\UniversityManagmentWithDB\obj\Debug\UniversityManagerWithDB.Forms.UpdateStudentForm.resources
+C:\Users\Desktop\WA\c#_corso\UniversityManagmentWithDB\obj\Debug\UniversityManagerWithDB.Properties.Resources.resources

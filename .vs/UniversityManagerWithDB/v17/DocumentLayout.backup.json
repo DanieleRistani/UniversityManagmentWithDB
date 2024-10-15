@@ -1,45 +1,49 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\",
+  "WorkspaceRootPath": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagmentWithDB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|c:\\users\\daniele\\wa\\universitymanagmentwithdb\\forms\\studentslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|c:\\users\\desktop\\wa\\c#_corso\\universitymanagmentwithdb\\forms\\studentslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|solutionrelative:forms\\studentslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\service\\appmenusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|c:\\users\\desktop\\wa\\c#_corso\\universitymanagmentwithdb\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|c:\\users\\desktop\\wa\\c#_corso\\universitymanagmentwithdb\\service\\appmenusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|solutionrelative:service\\appmenusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|c:\\users\\daniele\\wa\\universitymanagmentwithdb\\service\\studentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagmentWithDB\\service\\studentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|solutionrelative:service\\studentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\forms\\addstudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagmentWithDB\\forms\\addstudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|solutionrelative:forms\\addstudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|c:\\users\\daniele\\wa\\universitymanagmentwithdb\\universitydbdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagmentWithDB\\universitydbdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
       "RelativeMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|solutionrelative:universitydbdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|c:\\users\\daniele\\wa\\universitymanagmentwithdb\\enum\\studentsmanagmentenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagmentWithDB\\enum\\studentsmanagmentenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|solutionrelative:enum\\studentsmanagmentenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|c:\\users\\daniele\\wa\\universitymanagmentwithdb\\forms\\updatestudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagmentWithDB\\forms\\updatestudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|solutionrelative:forms\\updatestudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\forms\\updatestudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagmentWithDB\\forms\\updatestudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|solutionrelative:forms\\updatestudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\forms\\updatestudentform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagmentWithDB\\forms\\updatestudentform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|solutionrelative:forms\\updatestudentform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagmentWithDB\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30C21A76-DEC7-45CC-A6D9-40A1A0C8B210}|UniversityManagerWithDB.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -50,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,24 +66,36 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StudentsService.cs",
-              "DocumentMoniker": "C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\Service\\StudentsService.cs",
-              "RelativeDocumentMoniker": "Service\\StudentsService.cs",
-              "ToolTip": "C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\Service\\StudentsService.cs",
-              "RelativeToolTip": "Service\\StudentsService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABKAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "StudentsList.cs [Progettazione]",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagmentWithDB\\Forms\\StudentsList.cs",
+              "RelativeDocumentMoniker": "Forms\\StudentsList.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagmentWithDB\\Forms\\StudentsList.cs [Progettazione]",
+              "RelativeToolTip": "Forms\\StudentsList.cs [Progettazione]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T15:09:58.908Z",
+              "WhenOpened": "2024-10-15T20:32:39.899Z",
+              "EditorCaption": " [Progettazione]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagmentWithDB\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagmentWithDB\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-10-15T20:28:11.314Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "UniversityDBDataSet.xsd",
-              "DocumentMoniker": "C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\UniversityDBDataSet.xsd",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagmentWithDB\\UniversityDBDataSet.xsd",
               "RelativeDocumentMoniker": "UniversityDBDataSet.xsd",
-              "ToolTip": "C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\UniversityDBDataSet.xsd",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagmentWithDB\\UniversityDBDataSet.xsd",
               "RelativeToolTip": "UniversityDBDataSet.xsd",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
               "WhenOpened": "2024-10-15T14:58:09.398Z",
@@ -87,36 +103,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StudentsList.cs [Progettazione]",
-              "DocumentMoniker": "C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\Forms\\StudentsList.cs",
-              "RelativeDocumentMoniker": "Forms\\StudentsList.cs",
-              "ToolTip": "C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\Forms\\StudentsList.cs [Progettazione]",
-              "RelativeToolTip": "Forms\\StudentsList.cs [Progettazione]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T14:56:21.248Z",
-              "EditorCaption": " [Progettazione]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "StudentsManagmentEnum.cs",
-              "DocumentMoniker": "C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\Enum\\StudentsManagmentEnum.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagmentWithDB\\Enum\\StudentsManagmentEnum.cs",
               "RelativeDocumentMoniker": "Enum\\StudentsManagmentEnum.cs",
-              "ToolTip": "C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\Enum\\StudentsManagmentEnum.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagmentWithDB\\Enum\\StudentsManagmentEnum.cs",
               "RelativeToolTip": "Enum\\StudentsManagmentEnum.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T14:55:17.496Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T14:55:17.496Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "UpdateStudentForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\Forms\\UpdateStudentForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagmentWithDB\\Forms\\UpdateStudentForm.Designer.cs",
               "RelativeDocumentMoniker": "Forms\\UpdateStudentForm.Designer.cs",
-              "ToolTip": "C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\Forms\\UpdateStudentForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagmentWithDB\\Forms\\UpdateStudentForm.Designer.cs",
               "RelativeToolTip": "Forms\\UpdateStudentForm.Designer.cs",
               "ViewState": "AgIAAIQAAAAAAAAAAAAowJkAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -124,36 +127,34 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "UpdateStudentForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\Forms\\UpdateStudentForm.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagmentWithDB\\Forms\\UpdateStudentForm.cs",
               "RelativeDocumentMoniker": "Forms\\UpdateStudentForm.cs",
               "ToolTip": "C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\Forms\\UpdateStudentForm.cs [Design]",
-              "RelativeToolTip": "Forms\\UpdateStudentForm.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\Daniele\\wa\\UniversityManagmentWithDB\\Forms\\UpdateStudentForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T07:56:17.346Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-15T07:56:17.346Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "UpdateStudentForm.cs",
-              "DocumentMoniker": "C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\Forms\\UpdateStudentForm.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagmentWithDB\\Forms\\UpdateStudentForm.cs",
               "RelativeDocumentMoniker": "Forms\\UpdateStudentForm.cs",
-              "ToolTip": "C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\Forms\\UpdateStudentForm.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagmentWithDB\\Forms\\UpdateStudentForm.cs",
               "RelativeToolTip": "Forms\\UpdateStudentForm.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAwC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T07:55:45.274Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T07:55:45.274Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AppMenusService.cs",
-              "DocumentMoniker": "C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\Service\\AppMenusService.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagmentWithDB\\Service\\AppMenusService.cs",
               "RelativeDocumentMoniker": "Service\\AppMenusService.cs",
-              "ToolTip": "C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\Service\\AppMenusService.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagmentWithDB\\Service\\AppMenusService.cs",
               "RelativeToolTip": "Service\\AppMenusService.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAAgwDoAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -163,23 +164,34 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AddStudentForm.cs",
-              "DocumentMoniker": "C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\Forms\\AddStudentForm.cs",
-              "RelativeDocumentMoniker": "Forms\\AddStudentForm.cs",
-              "ToolTip": "C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\Forms\\AddStudentForm.cs",
-              "RelativeToolTip": "Forms\\AddStudentForm.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAqwE4AAAAvAAAAAAAAAA==",
+              "Title": "StudentsService.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagmentWithDB\\Service\\StudentsService.cs",
+              "RelativeDocumentMoniker": "Service\\StudentsService.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagmentWithDB\\Service\\StudentsService.cs",
+              "RelativeToolTip": "Service\\StudentsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T13:43:26.652Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T15:09:58.908Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
+              "Title": "AddStudentForm.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagmentWithDB\\Forms\\AddStudentForm.cs",
+              "RelativeDocumentMoniker": "Forms\\AddStudentForm.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagmentWithDB\\Forms\\AddStudentForm.cs",
+              "RelativeToolTip": "Forms\\AddStudentForm.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAqwE4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T13:43:26.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagmentWithDB\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Daniele\\wa\\UniversityManagmentWithDB\\Program.cs",
+              "ToolTip": "C:\\Users\\Desktop\\WA\\c#_corso\\UniversityManagmentWithDB\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAGcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

@@ -67,10 +67,10 @@
             this.studentdateofenrollmentDataGridViewTextBoxColumn,
             this.studentfacultyidDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.studentsBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 39);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 47);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(851, 315);
+            this.dataGridView1.Size = new System.Drawing.Size(871, 384);
             this.dataGridView1.TabIndex = 0;
             // 
             // studentidDataGridViewTextBoxColumn
@@ -78,56 +78,48 @@
             this.studentidDataGridViewTextBoxColumn.DataPropertyName = "student_id";
             this.studentidDataGridViewTextBoxColumn.HeaderText = "student_id";
             this.studentidDataGridViewTextBoxColumn.Name = "studentidDataGridViewTextBoxColumn";
-            this.studentidDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // studentmatDataGridViewTextBoxColumn
             // 
             this.studentmatDataGridViewTextBoxColumn.DataPropertyName = "student_mat";
             this.studentmatDataGridViewTextBoxColumn.HeaderText = "student_mat";
             this.studentmatDataGridViewTextBoxColumn.Name = "studentmatDataGridViewTextBoxColumn";
-            this.studentmatDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // studentnameDataGridViewTextBoxColumn
             // 
             this.studentnameDataGridViewTextBoxColumn.DataPropertyName = "student_name";
             this.studentnameDataGridViewTextBoxColumn.HeaderText = "student_name";
             this.studentnameDataGridViewTextBoxColumn.Name = "studentnameDataGridViewTextBoxColumn";
-            this.studentnameDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // studentsurnameDataGridViewTextBoxColumn
             // 
             this.studentsurnameDataGridViewTextBoxColumn.DataPropertyName = "student_surname";
             this.studentsurnameDataGridViewTextBoxColumn.HeaderText = "student_surname";
             this.studentsurnameDataGridViewTextBoxColumn.Name = "studentsurnameDataGridViewTextBoxColumn";
-            this.studentsurnameDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // studentageDataGridViewTextBoxColumn
             // 
             this.studentageDataGridViewTextBoxColumn.DataPropertyName = "student_age";
             this.studentageDataGridViewTextBoxColumn.HeaderText = "student_age";
             this.studentageDataGridViewTextBoxColumn.Name = "studentageDataGridViewTextBoxColumn";
-            this.studentageDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // studentgenderDataGridViewTextBoxColumn
             // 
             this.studentgenderDataGridViewTextBoxColumn.DataPropertyName = "student_gender";
             this.studentgenderDataGridViewTextBoxColumn.HeaderText = "student_gender";
             this.studentgenderDataGridViewTextBoxColumn.Name = "studentgenderDataGridViewTextBoxColumn";
-            this.studentgenderDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // studentdateofenrollmentDataGridViewTextBoxColumn
             // 
             this.studentdateofenrollmentDataGridViewTextBoxColumn.DataPropertyName = "student_date_of_enrollment";
             this.studentdateofenrollmentDataGridViewTextBoxColumn.HeaderText = "student_date_of_enrollment";
             this.studentdateofenrollmentDataGridViewTextBoxColumn.Name = "studentdateofenrollmentDataGridViewTextBoxColumn";
-            this.studentdateofenrollmentDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // studentfacultyidDataGridViewTextBoxColumn
             // 
             this.studentfacultyidDataGridViewTextBoxColumn.DataPropertyName = "student_faculty_id";
             this.studentfacultyidDataGridViewTextBoxColumn.HeaderText = "student_faculty_id";
             this.studentfacultyidDataGridViewTextBoxColumn.Name = "studentfacultyidDataGridViewTextBoxColumn";
-            this.studentfacultyidDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // studentsBindingSource
             // 
@@ -145,13 +137,15 @@
             // 
             // fillByToolStrip
             // 
+            this.fillByToolStrip.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.fillByToolStrip.Dock = System.Windows.Forms.DockStyle.None;
             this.fillByToolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.matricolaToolStripLabel,
             this.matricolaToolStripTextBox,
             this.fillByToolStripButton});
-            this.fillByToolStrip.Location = new System.Drawing.Point(0, 0);
+            this.fillByToolStrip.Location = new System.Drawing.Point(9, 9);
             this.fillByToolStrip.Name = "fillByToolStrip";
-            this.fillByToolStrip.Size = new System.Drawing.Size(883, 25);
+            this.fillByToolStrip.Size = new System.Drawing.Size(222, 25);
             this.fillByToolStrip.TabIndex = 1;
             this.fillByToolStrip.Text = "fillByToolStrip";
             // 
@@ -163,22 +157,23 @@
             // 
             // matricolaToolStripTextBox
             // 
+            this.matricolaToolStripTextBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.matricolaToolStripTextBox.Name = "matricolaToolStripTextBox";
-            this.matricolaToolStripTextBox.Size = new System.Drawing.Size(100, 23);
+            this.matricolaToolStripTextBox.Size = new System.Drawing.Size(100, 25);
             // 
             // fillByToolStripButton
             // 
             this.fillByToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.fillByToolStripButton.Name = "fillByToolStripButton";
-            this.fillByToolStripButton.Size = new System.Drawing.Size(39, 19);
-            this.fillByToolStripButton.Text = "FillBy";
+            this.fillByToolStripButton.Size = new System.Drawing.Size(48, 22);
+            this.fillByToolStripButton.Text = "CERCA";
             this.fillByToolStripButton.Click += new System.EventHandler(this.fillByToolStripButton_Click_2);
             // 
             // StudentsList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(883, 450);
+            this.ClientSize = new System.Drawing.Size(900, 455);
             this.Controls.Add(this.fillByToolStrip);
             this.Controls.Add(this.dataGridView1);
             this.Name = "StudentsList";
