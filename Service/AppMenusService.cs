@@ -11,8 +11,8 @@ namespace UniversityManagerWithDB.Service
 
         public void StudentsManagment()
         {
-            AddStudentForm addStudentForm = new AddStudentForm();
-            DeleteStudentForm deleteStudentForm = new DeleteStudentForm();  
+            StudentsService studentsService = new StudentsService();
+     
             bool exitLoop = false;
             while (!exitLoop)
             {
@@ -64,16 +64,16 @@ namespace UniversityManagerWithDB.Service
                         break;
                     case (int)StudentsManagmentEnum.AddStudent:
                         Console.WriteLine($"Hai selezionato: {options[selectedIndex]}");
-                        addStudentForm.ShowDialog();
+                        studentsService.addStudentForm.ShowDialog();
 
                         break;
                     case (int)StudentsManagmentEnum.UpdateStudent:
                         Console.WriteLine($"Hai selezionato: {options[selectedIndex]}");
-
+                        studentsService.updateStudentForm.ShowDialog();
                         break;
                     case (int)StudentsManagmentEnum.DeleteStudent:
                         Console.WriteLine($"Hai selezionato: {options[selectedIndex]}");
-                        deleteStudentForm.ShowDialog();
+                        studentsService.deleteStudentForm.ShowDialog();
                         break;
                     case (int)StudentsManagmentEnum.Exit:
 

@@ -12,7 +12,7 @@ using UniversityManagerWithDB.Helper;
 
 namespace UniversityManagerWithDB.Validation
 {
-    internal class StudentsValidation
+    public class StudentsValidation
     {
         public String ValidationMat(string mat)
         {

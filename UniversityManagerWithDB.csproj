@@ -99,6 +99,12 @@
     <Compile Include="Forms\DeleteStudentForm.Designer.cs">
       <DependentUpon>DeleteStudentForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\UpdateStudentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\UpdateStudentForm.Designer.cs">
+      <DependentUpon>UpdateStudentForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Helper\GetDbHelper.cs" />
     <Compile Include="Interface\StudentCRUD.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
@@ -119,6 +125,7 @@
     <Compile Include="Repository\StudentRepository.cs" />
     <Compile Include="Repository\TeacherRepository.cs" />
     <Compile Include="Service\AppMenusService.cs" />
+    <Compile Include="Service\StudentsService.cs" />
     <Compile Include="UniversityDBDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -173,6 +180,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\DeleteStudentForm.resx">
       <DependentUpon>DeleteStudentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UpdateStudentForm.resx">
+      <DependentUpon>UpdateStudentForm.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

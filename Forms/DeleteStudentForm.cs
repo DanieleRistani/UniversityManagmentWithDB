@@ -40,7 +40,6 @@ namespace UniversityManagerWithDB.Forms
             int rowsAffected = GetDbHelper.db.Students.SqlQuery("SELECT * FROM Students WHERE student_mat = @mat",
             new SqlParameter("@mat", matForm)).Count();
     
-            Console.WriteLine(rowsAffected);
             if (rowsAffected >0 ) { studentRepository.Delete(matForm); MessageBox.Show("Studento cancellato"); } else { MessageBox.Show("Studente non presente"); }
 
         }

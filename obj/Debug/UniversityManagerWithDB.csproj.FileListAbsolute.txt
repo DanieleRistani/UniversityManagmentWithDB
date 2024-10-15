@@ -42,3 +42,4 @@ C:\Users\Desktop\WA\c#_corso\UniversityManagmentWithDB\obj\Debug\UniversityManag
 C:\Users\Desktop\WA\c#_corso\UniversityManagmentWithDB\obj\Debug\Universi.36EA9CFF.Up2Date
 C:\Users\Desktop\WA\c#_corso\UniversityManagmentWithDB\obj\Debug\UniversityManagerWithDB.exe
 C:\Users\Desktop\WA\c#_corso\UniversityManagmentWithDB\obj\Debug\UniversityManagerWithDB.pdb
+C:\Users\Daniele\wa\UniversityManagmentWithDB\obj\Debug\UniversityManagerWithDB.Forms.UpdateStudentForm.resources
